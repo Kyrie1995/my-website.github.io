@@ -2,6 +2,7 @@ title: PRIMILITY
 author: Kyrie Lee
 email: lzhsummer@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -12,7 +13,7 @@ minima:
   # generate social links in footer
   social_links:
     # twitter: jekyllrb
-    github:  Kyrie1995
+    github: Kyrie1995
     instagram: Kyrllzh
     # rss: rss
     # dribbble: jekyll
@@ -28,7 +29,6 @@ minima:
     # googleplus: +jekyll
     # microdotblog: jekyll
     # keybase: jekyll
-
     # Mastodon instances
     # mastodon:
     # - username: jekyll
@@ -45,11 +45,8 @@ minima:
 theme: minima
 
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
-
-minima:
-  skin: classic
+  - jekyll-feed
+  - jekyll-seo-tag
 
 header_pages:
   - about.md
